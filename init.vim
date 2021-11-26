@@ -12,6 +12,7 @@ Plug 'honza/vim-snippets'
 Plug 'davidhalter/jedi-vim'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
 else
