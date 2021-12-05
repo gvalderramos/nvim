@@ -13,6 +13,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'minoue/mayaScriptEditor.vim'
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
 else
@@ -51,5 +52,5 @@ nnoremap <c-f> :Ag<space>
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 let g:UltiSnipsEditSplit="vertical"
-let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
+let g:UltiSnipsSnippetsDir = '%LOCALAPPDATA%/nvim/UltiSnips'
 
